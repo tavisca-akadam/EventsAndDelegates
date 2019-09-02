@@ -14,14 +14,14 @@ namespace DelegatesAndStuff
             worker.WorkCompleted += new EventHandler(Worker_WorkCompleted);
             worker.DoWork(10, WorkType.GoToMeeting);
             worker.WorkPerformed -= Worker_WorkPerformed;                               //TO remove the event from invocation list
-            worker.WorkPerformed -= Worker_WorkCompleted;
+            worker.WorkCompleted -= Worker_WorkCompleted;
 
             //Using Delegate Inference 
             worker.WorkPerformed += Worker_WorkPerformed;
             worker.WorkCompleted += Worker_WorkCompleted;
             worker.DoWork(8, WorkType.GenerateReport);
             worker.WorkPerformed -= Worker_WorkPerformed;                              //TO remove the event from invocation list
-            worker.WorkPerformed -= Worker_WorkCompleted;
+            worker.WorkCompleted -= Worker_WorkCompleted;
 
             //Using Ananumous Method
             worker.WorkPerformed += delegate(object sender, WorkPerformedEventArgs e) {
