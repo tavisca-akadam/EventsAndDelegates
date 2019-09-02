@@ -31,6 +31,14 @@ namespace DelegatesAndStuff
             worker.WorkCompleted += delegate(object sender, EventArgs e) {
                 Console.WriteLine("Work Done");
             };
+
+            //Using Lambdas
+            var worker1 = new Worker();
+
+            worker1.WorkPerformed += (s, e) => Console.WriteLine($"number of hours {e.Hours}, by work {e.WorkType} and owner was {s.ToString()}");
+            worker1.WorkCompleted += (s, e) => Console.WriteLine("Work Done");
+
+            worker1.DoWork(4, WorkType.GoToMeeting);
             worker.DoWork(6, WorkType.PlayCricket);
 
             Console.ReadKey(true);
