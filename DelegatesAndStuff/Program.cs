@@ -8,8 +8,8 @@ namespace DelegatesAndStuff
         {
             Console.WriteLine("Hello World!");
             Worker worker = new Worker();
-            worker.WorkPerformed += new EventHandler<WorkPerformedEventArgs>(DelMethod.WorkPerformed);
-            worker.WorkCompleted += new EventHandler(DelMethod.WorkDone);
+            worker.WorkPerformed += DelMethod.WorkPerformed;
+            worker.WorkCompleted += DelMethod.WorkDone;
 
             worker.DoWork(10, WorkType.GoToMeeting);
             Console.ReadKey(true);

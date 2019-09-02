@@ -17,6 +17,7 @@ namespace DelegatesAndStuff
             for(int i = 0; i < hours; i++)
             {
                 //Do work here
+                System.Threading.Thread.Sleep(2000);
                 OnWorkPerformed(i + 1, workType);
             }
             //After work completion
