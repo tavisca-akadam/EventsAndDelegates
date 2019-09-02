@@ -1,0 +1,11 @@
+C:\Users\ankadam\source\repos\DelegatesAndStuff\DelegatesAndStuff\bin\Debug\netcoreapp2.2\DelegatesAndStuff.deps.json
+C:\Users\ankadam\source\repos\DelegatesAndStuff\DelegatesAndStuff\bin\Debug\netcoreapp2.2\DelegatesAndStuff.runtimeconfig.json
+C:\Users\ankadam\source\repos\DelegatesAndStuff\DelegatesAndStuff\bin\Debug\netcoreapp2.2\DelegatesAndStuff.runtimeconfig.dev.json
+C:\Users\ankadam\source\repos\DelegatesAndStuff\DelegatesAndStuff\bin\Debug\netcoreapp2.2\DelegatesAndStuff.dll
+C:\Users\ankadam\source\repos\DelegatesAndStuff\DelegatesAndStuff\bin\Debug\netcoreapp2.2\DelegatesAndStuff.pdb
+C:\Users\ankadam\source\repos\DelegatesAndStuff\DelegatesAndStuff\obj\Debug\netcoreapp2.2\DelegatesAndStuff.csprojResolveAssemblyReference.cache
+C:\Users\ankadam\source\repos\DelegatesAndStuff\DelegatesAndStuff\obj\Debug\netcoreapp2.2\DelegatesAndStuff.csproj.CoreCompileInputs.cache
+C:\Users\ankadam\source\repos\DelegatesAndStuff\DelegatesAndStuff\obj\Debug\netcoreapp2.2\DelegatesAndStuff.AssemblyInfoInputs.cache
+C:\Users\ankadam\source\repos\DelegatesAndStuff\DelegatesAndStuff\obj\Debug\netcoreapp2.2\DelegatesAndStuff.AssemblyInfo.cs
+C:\Users\ankadam\source\repos\DelegatesAndStuff\DelegatesAndStuff\obj\Debug\netcoreapp2.2\DelegatesAndStuff.dll
+C:\Users\ankadam\source\repos\DelegatesAndStuff\DelegatesAndStuff\obj\Debug\netcoreapp2.2\DelegatesAndStuff.pdb
