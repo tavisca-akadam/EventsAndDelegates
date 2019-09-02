@@ -6,4 +6,8 @@
     <RootNamespace>DelegatesAndStuff</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="DelMethod.cs" />
+  </ItemGroup>
+
 </Project>
